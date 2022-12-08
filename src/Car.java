@@ -1,7 +1,7 @@
 public class Car {
-    public int model;
-    public String make;
-    public int speed;
+    private int model;
+    private String make;
+    private int speed;
 
     Car(int model, String make, int speed)
     {
@@ -9,5 +9,5 @@ public class Car {
         this.make = make;
         this.speed = speed;
     }
-    
+    getModel
 }

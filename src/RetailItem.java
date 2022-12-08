@@ -1,7 +1,7 @@
 public class RetailItem {
-    public String description;
-    public int units;
-    public double retail_price;
+    private String description;
+    private int units;
+    private double retail_price;
 
     RetailItem(){
         System.out.println("Constructor is invoked.");
@@ -41,7 +41,7 @@ public class RetailItem {
         item2.setRetailItem("coffee mug", 150, 250.00);
         item3.setRetailItem("photo frame",29 , 400.00);
 
-        System.out.println("The price of item 1 is " + item1.retail_price); //what accessor method??
+        System.out.println("The price of item 1 is " + item1.getRetailPrice()); 
     }
 
     

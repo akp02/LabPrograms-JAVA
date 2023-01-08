@@ -1,6 +1,6 @@
 package animalLab;
 
-public class Cat extends Animal{
+public class Cat extends Animal implements Pet{
     private String name;
     Cat(String name){
         super(4);

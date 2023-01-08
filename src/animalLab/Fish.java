@@ -7,7 +7,7 @@ public class Fish extends Animal implements Pet{
         super(0);
     
     }
-    void setName(String name){
+    public void setName(String name){
         this.name = name;
     }
     public String getName(){

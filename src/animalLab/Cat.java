@@ -9,13 +9,13 @@ public class Cat extends Animal implements Pet{
     Cat(){
         this(" ");
     }
-    void setName(String name){
+    public void setName(String name){
         this.name = name;
     }
-    String getName(){
+    public String getName(){
         return this.name;
     }
-    void play(){
+    public void play(){
         System.out.println("The cat is playing.");
     }
     public void eat(){

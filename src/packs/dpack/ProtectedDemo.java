@@ -1,4 +1,4 @@
-package dpack;
+package packs.dpack;
 
 public class ProtectedDemo{
     public static void main(String[] args) {

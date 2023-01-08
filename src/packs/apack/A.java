@@ -1,4 +1,4 @@
-package apack;
+package packs.apack;
 
 public class A {
     int a;

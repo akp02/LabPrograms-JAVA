@@ -1,6 +1,6 @@
-package cpack;
+package packs.cpack;
 
-import apack.A;
+import packs.apack.A;
 
 public class C extends A{
     void display(){

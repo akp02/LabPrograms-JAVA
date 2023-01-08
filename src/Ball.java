@@ -6,5 +6,4 @@ public class Ball{
         this.brandName = brandName;
     }
     
-    public 
 }

@@ -1,3 +1,14 @@
+/*B. Design and create a class named Retail Item that holds data about an item in a retail
+store. The class should have the following fields:
+i. Description - The description field references a String object that holds a brief
+description of the item.
+ii. Units - The unit’s field is an int variable that holds the number of units currently in
+inventory.
+iii. Price - The price field is a double that holds the item’s retail price.
+Write a constructor that accepts arguments for each field, appropriate mutator methods
+that store values in these fields, and accessor methods that return the values in these
+fields. Write the main method which creates three Retail Item objects and invokes
+appropriate methods. */
 public class RetailItem {
     private String description;
     private int units;

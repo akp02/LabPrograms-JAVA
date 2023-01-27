@@ -9,8 +9,10 @@ public class StringMethodsDemo {
         System.out.println("Concatenated string: " + str3);
     // #3 String to CharArray()
         char[] charArray = str1.toCharArray(); 
-        System.out.print("String as char array: "); for (char c : charArray) {
-        System.out.print(c + " "); }
+        System.out.print("String as char array: "); 
+        for (char c : charArray) {
+            System.out.print(c + " "); 
+        }
         System.out.println();
     // #4 String charAt()
         System.out.println("Third character of str1: " + str1.charAt(2));
@@ -39,4 +41,5 @@ public class StringMethodsDemo {
     // #12 Substring Method()
         String str7 = str3.substring(6); 
         System.out.println("Substring of str3 from index 6: " + str7);
-} }
+    } 
+}
